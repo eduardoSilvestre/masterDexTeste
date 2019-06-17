@@ -6,21 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="@drawable/fundoroxo">
+    tools:context=".TelaLogin"
+    android:background="@drawable/splash_vetor">
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_weight="1"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logoicone"/>
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
+            android:textColor="@color/Branco"
             android:gravity="center"/>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -55,6 +58,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/Branco"
                 android:text="Esqueceu sua senha ?"
                 android:textStyle="bold"
                 android:id="@+id/Login_esqueci_minha_senha"

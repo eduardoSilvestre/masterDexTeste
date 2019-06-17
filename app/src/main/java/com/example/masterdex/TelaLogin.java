@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class MainActivity extends AppCompatActivity {
+public class TelaLogin extends AppCompatActivity {
 
     private TextInputEditText emailEditText;
     private TextInputEditText senhaEditText;
